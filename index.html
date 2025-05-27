@@ -28,7 +28,9 @@
           v-for="(goal, index) in goals"
           :key="goal"
           @click="removeGoal(index)"
-        ></li>
+        >
+          {{goal}}
+        </li>
       </ul>
       <!-- <ul>
         <li v-for="num in 10">{{num}}</li>
